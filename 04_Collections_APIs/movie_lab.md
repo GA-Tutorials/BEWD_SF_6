@@ -13,7 +13,7 @@ Technologies you will be using:
 #Part 1
 Start by familiarizing yourself with the API.  It has a very simple interface.  Look at the docs on the left side of the [OMDB Home Page](http://www.omdbapi.com/)
 
-Use Typhoeus to make requests to the API that return the following information:
+Use your browser to make requests to the API that return the following information:
 
 1. A list of movies with "Harry" in their title
 2. A list of movies with "Star Wars" in their title (pay attention to spaces!)
