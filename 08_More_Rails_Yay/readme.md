@@ -2,6 +2,7 @@
 
 * Git Review
 * Very Serious Official Homework Submission Discussion
+* [Github HW Link](https://github.com/ga-students/SF_BEWD_6_homework)
 * Weekend Homework Review
 * [RailsCasts](http://railscasts.com/)
 * Symbols
