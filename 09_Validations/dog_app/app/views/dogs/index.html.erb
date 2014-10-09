@@ -1,0 +1,12 @@
+<h1>All the Dogs!</h1>
+
+<%@dogs.each do |d| %>
+	<li><%=d.name%> - <%=d.breed%></li>
+	<%= link_to "Details", dog_path(d)%>
+	<%= link_to 'Edit', edit_dog_path(d)%>
+	<%= link_to 'Remove', dog_path(d),
+                    method: :delete, data: { confirm: 'Are you sure?' } %>
+<% end %>
+
+	<%= link_to 'Add New Dog', new_dog_path %>
+

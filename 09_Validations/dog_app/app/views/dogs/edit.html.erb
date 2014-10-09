@@ -1,0 +1,13 @@
+<h1>New Dog Form</h1>
+
+<% @dog.errors.full_messages.each do |err|%>
+	<li><%=err%></li>
+<% end %>
+
+
+<%= form_for @dog do |f| %>
+	<%=f.text_field :name %>
+	<%=f.text_field :breed %>
+	<%=f.text_field :age %>
+	<%=f.submit %>
+<% end %>
