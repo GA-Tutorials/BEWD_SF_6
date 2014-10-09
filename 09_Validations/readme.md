@@ -1,6 +1,6 @@
 #Validations and More!
 
-* Validations
+* [Validations](http://guides.rubyonrails.org/active_record_validations.html)
 * Displaying Error Messages
 * Redirect vs. Render
 * Application.html
