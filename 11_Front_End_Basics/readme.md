@@ -37,5 +37,9 @@
 
 
 ###Key Gems 
-- [Twitter Bootstrap Gem ](https://docs.google.com/a/generalassemb.ly/forms/d/1y77yysiZWxAal3vm5-TFqlmRRr5nH9RODdhHnEZiIZ8/viewform)
+- [Twitter Bootstrap Gem ](https://github.com/twbs/bootstrap-sass)
+  * `gem 'bootstrap-sass', '~> 3.2.0'`
+  * `gem 'autoprefixer-rails' `
+
 - [Simple Form Gem](https://github.com/plataformatec/simple_form)
+  * ` gem 'simple_form' ` 
