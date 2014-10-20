@@ -1,0 +1,5 @@
+<h1>People Index</h1>
+
+<% @people.each do |person| %>
+	<li><%= person.name %> <%= link_to "View Pets", person_pets_path(person)%></li>
+<% end %>

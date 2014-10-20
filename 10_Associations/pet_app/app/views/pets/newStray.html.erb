@@ -1,0 +1,8 @@
+<h1>New Pet without owner :( </h1>
+
+<%= form_for(@pet) do |f| %>
+	<%= f.text_field :name %>
+	<%= f.text_field :species %>
+	<%= f.number_field :age %>
+	<%= f.submit %>
+<% end %>
