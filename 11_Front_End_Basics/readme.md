@@ -4,9 +4,9 @@
 
 ###Learning Objectives
 
-* Basic Understanding of [Twitter Bootstrap](http://getbootstrap.com/) with Sass
-* Basic Understanding of [Simple Form](https://github.com/plataformatec/simple_form)
-* Basic Font Integration with [Google Fonts](https://www.google.com/fonts)
+* Develop a Fundamental understanding of [Twitter Bootstrap](http://getbootstrap.com/) 
+* Develop a basic understanding of the [Simple Form](https://github.com/plataformatec/simple_form) library (gem)
+* Understand how Font Integration works with [Google Fonts](https://www.google.com/fonts)
 * Create an app with Bootstrap, Simple form &  google font integration
 
 
