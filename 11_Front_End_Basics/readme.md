@@ -4,10 +4,10 @@
 
 ###Learning Objectives
 
-* Develop a Fundamental understanding of [Twitter Bootstrap](http://getbootstrap.com/) 
+* Develop a fundamental understanding of [Twitter Bootstrap](http://getbootstrap.com/) 
 * Develop a basic understanding of the [Simple Form](https://github.com/plataformatec/simple_form) library (gem)
-* Understand how Font Integration works with [Google Fonts](https://www.google.com/fonts)
-* Create an app with Bootstrap, Simple form &  google font integration
+* Understand how font integration works using [Google Fonts](https://www.google.com/fonts)
+* Create an app with Bootstrap, Simple form & google font 
 
 
 ###Schedule
@@ -24,8 +24,8 @@
 - Complete the final Back End components of your last week's Record Label app (if you haven't)
   * Integrate Twitter Bootstrap (add basic header & footer partials using bootstrap)
   * Create show, edit, new & index pages for Record Labels, Artists and Songs
-  * Use panels, tables , buttons to give your application a unique flair
-  * Integrate simple_form within view layer
+  * Use panels, tables, buttons to give your application a unique flair
+  * Integrate simple_form within the view layer
 
 
 ###Homework
