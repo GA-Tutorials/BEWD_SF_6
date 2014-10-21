@@ -1,6 +1,11 @@
 @import "bootstrap";
 
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+.pacifico_font {
+	font-family: 'Pacifico', cursive;
+}
 
 .quicksand_font {
 font-family: 'Quicksand', sans-serif;
@@ -12,5 +17,14 @@ font-family: 'Quicksand', sans-serif;
 
 .well.white {
 background-color: #ffffff;
+}
+
+.home_page_font {
+	font-family: 'Pacifico', cursive;
+	color: #cc3333;
+	padding:100px;
+	font-size:150px;
+	text-align:center;
+	
 }
 
