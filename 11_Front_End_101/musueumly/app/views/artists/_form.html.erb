@@ -1,0 +1,17 @@
+<div class="well">
+<%= simple_form_for(@artist, html: {:class => 'form-horizontal'} ) do |f| %>
+
+<%= f.input :name, label: false, input_html: {:class => 'form-control quicksand_font', placeholder: "Name of Artist"} %>
+<br/> 
+
+<%= f.input :bio, label: false, input_html: {:class => 'form-control quicksand_font', placeholder: "Artist Biography"}%>
+<br/>
+
+<%= f.input :image, label: false, input_html: {:class => 'form-control quicksand_font', placeholder: "Image of Artist"}%>
+<br/> 
+
+<%= f.submit "Submit".html_safe, :class => 'btn btn-lg btn-success quicksand_font' %> 
+
+<%end %> 
+
+</div>
