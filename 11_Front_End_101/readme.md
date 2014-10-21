@@ -23,8 +23,8 @@
 ###Lab Time
 - Complete the final Back End components of your last week's Record Label app (if you haven't)
   * Integrate Twitter Bootstrap (add basic header & footer partials using bootstrap)
-  * Create show, edit, new & index pages for Record Labels, Artists and Songs
-  * Use panels, tables, buttons to give your application a unique flair
+  * Create show, edit, new & index pages for Artist
+  * Use panels, wells, image thumbnails, tables, and buttons to give the application a unique flair
   * Integrate simple_form within the view layer
 
 
