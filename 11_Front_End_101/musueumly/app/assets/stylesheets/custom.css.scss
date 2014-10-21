@@ -15,8 +15,17 @@ font-family: 'Quicksand', sans-serif;
  color: #cc3333;
 }
 
+.my_grey {
+	color: #dddddd;
+}
+
 .well.white {
 background-color: #ffffff;
+}
+
+.navbar-default.white {
+	background-color: #ffffff;
+	border-color: #ffffff;
 }
 
 .home_page_font {
@@ -25,6 +34,10 @@ background-color: #ffffff;
 	padding:100px;
 	font-size:150px;
 	text-align:center;
+	
+}
+.btn-black {
+	background-color: #000000;
 	
 }
 
