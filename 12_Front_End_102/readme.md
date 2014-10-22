@@ -21,12 +21,12 @@
 
 
 ###Lab Time
-- Front End Integration features into Record Label app
+- Front End Integration features into Song app
 - Begin Api Integration with Rap Genius API 
 
 
 ###Homework
-- Complete Front End Integration for Record Label App
+- Complete Front End Integration for Song App
 - Complete API Integration for Rap Genius API 
 - Brainstorm on Final Project 
 
