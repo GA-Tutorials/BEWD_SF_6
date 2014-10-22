@@ -15,9 +15,9 @@
 | Time        | Topic| Comments |
 | ------------- |:-------------|:-------------------|:-------------------|
 | 30 min | Front End Review  | 
-| 30 min | Continue Twitter Bootstrap, Simple Form & Google Fonts into Song App from Homework |
-| 30 min | Into to Api Integration with Rap Genius 
-| 90 min | Lab Time - Front End Integration  & Api Integration | 
+| 30 min | Continue Twitter Bootstrap, Simple Form & Google Fonts|
+| 30 min | Intro to Api Integration with Rap Genius 
+| 90 min | Lab Time - Front End Integration  & Api Integration into Song App| 
 
 
 ###Lab Time
