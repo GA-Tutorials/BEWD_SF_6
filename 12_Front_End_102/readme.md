@@ -5,7 +5,7 @@
 ###Learning Objectives
 
 * Deepen your understanding of Front End Basics 
-* Fundamental understanding of API Intergation with Rails using [Rap Ge]
+* Develop a basic understanding of API Intergation with Rails using Rap Genius
 * Create Sexier App using Front End Basics & API connectivity with 
 
 
