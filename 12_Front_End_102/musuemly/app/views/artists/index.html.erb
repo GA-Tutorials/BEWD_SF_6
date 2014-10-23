@@ -10,10 +10,10 @@
 </tr>
 <tr>
 <% @artists.each do |artist| %> 
-<td class="col-xs-2">   <%= image_tag(artist.image, :class => 'img-rounded thumbnail img-responsive') %> </td>
-<td> <%=link_to "#{artist.name}", artist_path(artist) %> </td>
+<td class="col-xs-2">   <%= image_tag(artist.try(:image), :class => 'img-rounded thumbnail img-responsive') %> </td>
+<td> <%=link_to "#{artist.try(:name)}", artist_path(artist) %> </td>
 
-<td class="col-xs-4"><%= artist.bio %> </td>
+<td class="col-xs-4"><%= artist.try(:bio) %> </td>
 <td> <%=link_to "Show", artist_path(artist), :class => 'btn btn-primary btn-sm' %> 
 <%=link_to "Edit", edit_artist_path(artist), :class => 'btn btn-default btn-sm' %> 
 <%=link_to "Delete", artist, method: :delete, data: {confirm: "Are you sure"}, :class => 'btn btn-danger btn-sm' %> </td>
