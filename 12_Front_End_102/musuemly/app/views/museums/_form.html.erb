@@ -1,0 +1,15 @@
+<div class="well white">
+<%= simple_form_for(@museum, html: {:class => 'form-horizontal'} ) do |f| %>
+
+
+<%= f.input :name, label: false, input_html: {:class => 'form-control owswald_font', placeholder: "Name"}%>
+<br/>
+
+<%= f.input :location, collection: cities, label: false, input_html: {:class => 'form-control oswald_font', placeholder: "Location"}%>
+<br/> 
+<div style="text-align:center;">
+<%= f.submit "New Musuem".html_safe, :class => 'btn btn-lg btn-primary oswald_font' %> 
+</div>
+<%end %> 
+
+</div>

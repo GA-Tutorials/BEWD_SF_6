@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   resources :art_works
   resources :artists
+  resources :museums
 
   get "knockaround", to: "static_pages#knock_around"
   root "static_pages#home"

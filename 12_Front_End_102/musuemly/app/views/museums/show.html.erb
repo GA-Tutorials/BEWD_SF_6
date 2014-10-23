@@ -1,0 +1,7 @@
+<h1 class="oswald_font"> Art at Musuem </h1>
+
+<% @art_works.each do |art| %> 
+<div class="well white">
+<td class="col-xs-4">   <%=  link_to image_tag(art.try(:image), :class => 'img-rounded thumbnail img-responsive', :size => '200x200'), art_work_path(art) %> </td>
+</div>
+<%end %> 

@@ -45,7 +45,7 @@ class ArtWorksController < ApplicationController
   end
 
   def art_work_params
-    params.require(:art_work).permit(:name,:artist_id,:image, :description)
+    params.require(:art_work).permit(:name,:artist_id,:museum_id, :image, :description)
   end
 
 

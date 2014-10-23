@@ -1,13 +1,17 @@
 <div class="well white">
 <%= simple_form_for(@art_work, html: {:class => 'form-horizontal'} ) do |f| %>
 
+
+<%= f.association :museum, label: false, input_html: {:class => 'form-control quicksand_font', placeholder: "Musueum Affliation"} %>
+<br/> 
 <%= f.association :artist, label: false, input_html: {:class => 'form-control quicksand_font', placeholder: "Name of Art Work"} %>
 <br/> 
 
 <%= f.input :name, label: false, input_html: {:class => 'form-control quicksand_font', placeholder: "Name of Art Work"} %>
 <br/> 
 
-<%= f.input :description, label: false, input_html: {:class => 'form-control quicksand_font', placeholder: "Art Work Description"}%>
+<%= f.input :description, label: false, input_html: {:class => 'form-control quicksand_font', placeholder: "Art Work Description", rows: 10}%>
+
 <br/>
 
 <%= f.input :image, label: false, input_html: {:class => 'form-control quicksand_font', placeholder: "Image of Art Work"}%>

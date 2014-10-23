@@ -9,13 +9,12 @@
 #  created_at  :datetime
 #  updated_at  :datetime
 #  description :text
+#  museum_id   :integer
 #
 
 class ArtWork < ActiveRecord::Base
   belongs_to :artist
+  belongs_to :museum
 
-  def self.get_song_info
-  end
-  
 
 end

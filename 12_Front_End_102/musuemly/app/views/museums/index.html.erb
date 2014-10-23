@@ -1,0 +1,29 @@
+<div class="col-xs-12">
+<h1 class="my_red oswald_font" style="font-size:70px;">Musuems</h1>
+
+<table class="table table-responsive table-bordered table-hover">
+<tr> <th> Name</th>
+<th> Location </th>
+<th> Art Work On Display </th>
+
+<th> Actions</th>
+
+</tr>
+<tr>
+<% @museums.each do |m| %> 
+
+
+<td> <%= m.try(:name) %> </td>
+<td class="col-xs-6"><%= m.try(:location) %> </td>
+<td> <%=link_to "See Exhibition", museum_path(m), :class => 'btn btn-primary btn-sm' %> </td>
+<td>
+<%=link_to "Edit", edit_museum_path(m), :class => 'btn btn-default btn-sm' %> 
+<%=link_to "Delete", m, method: :delete, data: {confirm: "Are you sure"}, :class => 'btn btn-danger btn-sm' %> </td>
+</tr> 
+<%end %>
+
+</table>
+<div style="text-align:center;" class="well white ">
+<%=link_to "Add Museum", new_museum_path, :class => "btn btn-lg btn-default	" %>  
+</div>
+</div> 

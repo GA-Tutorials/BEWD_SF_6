@@ -18,12 +18,6 @@ class Artist < ActiveRecord::Base
 
   #associations
   has_many :art_works
-  belongs_to :musuem
-
-
-
-
-
 
   
 end
