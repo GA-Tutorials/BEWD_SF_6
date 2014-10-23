@@ -8,7 +8,16 @@
   <div class="col-xs-4 well white">
   <h1 class="my_red pacifico_font"><%= @artist.name %> </h1>
   <p> <%= @artist.bio %>  </p>
+  <p>   <% @art_works.each do |art| %>
+  <ul> <%= link_to "#{art.name}", art_work_path(art) %> </ul>
+  <% end %> 
+
+
+
+  </p>
   </div>
+
+
 </div>
 
 

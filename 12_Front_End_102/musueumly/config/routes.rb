@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
- 
+
+  resources :art_works
   resources :artists
 
   get "knockaround", to: "static_pages#knock_around"
