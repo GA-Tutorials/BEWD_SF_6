@@ -13,4 +13,9 @@
 
 class ArtWork < ActiveRecord::Base
   belongs_to :artist
+
+  def self.get_song_info
+  end
+  
+
 end

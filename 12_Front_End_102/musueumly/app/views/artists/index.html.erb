@@ -2,6 +2,7 @@
 <h1 class="my_grey" style="font-size:100px;">Artists</h1>
 
 <table class="table table-responsive table-bordered table-hover">
+<tr> <th> Picture </th>
 <tr> <th> Name </th>
 <th> Bio </th>
 <th> Actions</th>
@@ -10,7 +11,7 @@
 <tr>
 <% @artists.each do |artist| %> 
 <td> <%=link_to "#{artist.name}", artist_path(artist) %> </td>
-
+<td class="col-xs-2">   <%= image_tag(artist.image, :class => 'img-rounded thumbnail img-responsive') %> </td>
 <td><%= artist.bio %> </td>
 <td> <%=link_to "Show", artist_path(artist), :class => 'btn btn-primary' %> 
 <%=link_to "Edit", edit_artist_path(artist), :class => 'btn btn-default' %> 

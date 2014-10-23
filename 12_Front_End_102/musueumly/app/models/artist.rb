@@ -11,8 +11,19 @@
 #
 
 class Artist < ActiveRecord::Base
-  validates_presence_of :name, :image, :bio
+  
+  #validations 
+  validates_presence_of :name, :bio
   validates_uniqueness_of :name
+
+  #associations
   has_many :art_works
-  belongs_to :musuem   
+  belongs_to :musuem
+
+
+
+
+
+
+  
 end

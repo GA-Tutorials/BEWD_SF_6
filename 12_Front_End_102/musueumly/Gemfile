@@ -2,7 +2,9 @@ source 'https://rubygems.org'
 
 #Core Management
 gem 'rails', '4.1.6'
-gem 'pg' #THIS SHOULD NOT BE IN YOUR IN GEM FILE 
+gem 'sqlite3' 
+
+gem "rapgenius", "~> 1.0.2"
 
 #Front End Management
 gem 'sass-rails', '~> 4.0.3'
