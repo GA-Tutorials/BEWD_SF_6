@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20141023001234) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "art_works", force: true do |t|
     t.string   "name"
     t.integer  "artist_id"
@@ -25,7 +22,7 @@ ActiveRecord::Schema.define(version: 20141023001234) do
     t.text     "description"
   end
 
-  add_index "art_works", ["artist_id"], name: "index_art_works_on_artist_id", using: :btree
+  add_index "art_works", ["artist_id"], name: "index_art_works_on_artist_id"
 
   create_table "artists", force: true do |t|
     t.string   "name"
