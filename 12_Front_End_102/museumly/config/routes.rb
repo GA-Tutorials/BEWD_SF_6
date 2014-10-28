@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   get "knockaround", to: "static_pages#knock_around"
   root "static_pages#home"
 
+  get "search" => "static_pages#search"
+  post "results" => "static_pages#results"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

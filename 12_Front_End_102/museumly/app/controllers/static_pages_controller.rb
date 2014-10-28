@@ -4,4 +4,11 @@ class StaticPagesController < ApplicationController
 
   def knock_around
   end
+
+  def search
+  end
+
+  def results
+  	@results = RapGeniusApi.get_artist_info(params[:artist])
+  end
 end

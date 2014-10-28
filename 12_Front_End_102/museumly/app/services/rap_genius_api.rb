@@ -1,5 +1,4 @@
 module RapGeniusApi
-
   def self.get_artist_info(name)
     search = RapGenius.search_by_artist(name)
     artist = search.first.artist
@@ -23,3 +22,9 @@ end
 #get song_ids for artist
 #get get_song_info
 #get lyrics or get media (url to audio)
+
+# RapGeniusApi.get_artist_info("Beatles")
+
+
+
+
