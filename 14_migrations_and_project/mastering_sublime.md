@@ -30,22 +30,29 @@ You probably find yourself going back and forth between parts of your code often
 
 **Delete Current Line**
 Instead of selecting a line with your mouse and then hitting the delete key, you can use `CONTROL + SHIFT + K` to delete the line your cursor is on.  This one is really useful
+
 **Delete Current Line Up To Cursor**
 Sometimes you only want to delete part of line.  You can delete everything from the end of the line up to your cursor using `CONTROL + K`
 **Expand Selection To Line**
 To select the entire line your cursor is on, type `COMMAND + L`
+
 **Expand Selection To Word**
 To expand your current selection to the enclosing word, use `COMMAND + D`
 **Multi Select and Edit**
 You can also use `COMMAND + D` to select other instances of highlighted text.  This is useful when you need to edit some, but not all instances of something.
+
 **Spellcheck**
 Sometimes you need to spellcheck your code.  Use `F6` to run spellcheck on your currently opened file.
+
 **Select All Instances**
 Highlight some text and then hit `CONTROL + COMMAND + G` to select all other instances of that text.  This is useful for finding, deleting, or replacing multiple things at once.
+
 **Close Current HTML Tag**
 It can be annoying to type HTML tags.  You can type `COMMAND + OPTION + .` to close the current HTML tag.  Very useful.
+
 **Jump To Matching Bracket**
 I use this one a lot when I'm writing Javascript.  Type `CONTROL + M` to jump from one bracket to its respective opening/closing bracket.
+
 **Open User Settings**
 Type `COMMAND + .` to quickly access your user settings in Sublime.  You'll see why this is so useful shortly!
 
