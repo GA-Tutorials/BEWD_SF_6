@@ -2,7 +2,6 @@
 
 <%= form_tag('/send_text') do %>
   <div><%= text_field_tag :message, nil, placeholder: "Message" %></div>
-    <div><%= text_field_tag :link, nil, placeholder: "Image URL" %></div>
-
+  <div><%= text_field_tag :link, nil, placeholder: "Image URL" %></div>
   <div><%= submit_tag 'Send' %></div>
 <% end %>

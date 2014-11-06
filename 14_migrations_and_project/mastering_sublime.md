@@ -44,6 +44,7 @@ You can also use `COMMAND + D` to select other instances of highlighted text.  T
 **Spellcheck**
 Sometimes you need to spellcheck your code.  Use `F6` to run spellcheck on your currently opened file.
 
+
 **Select All Instances**
 Highlight some text and then hit `CONTROL + COMMAND + G` to select all other instances of that text.  This is useful for finding, deleting, or replacing multiple things at once.
 
